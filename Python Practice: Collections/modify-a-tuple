@@ -1,8 +1,0 @@
-# Python code​​​​​​‌​‌‌‌‌‌​‌‌‌‌​‌‌​‌​‌‌​​​​​ below
-# Use print("messages...") to debug your solution.
-
-show_expected_result = False
-show_hints = False
-
-def insert_item(my_tuple, new_value, index):
-     return my_tuple[:index] + (new_value,) + my_tuple[index:]
